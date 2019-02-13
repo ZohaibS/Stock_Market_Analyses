@@ -204,7 +204,7 @@ def Signal(TICKER):
     #return jsonify(records)
     #return jsonify(records2)
     #return str(RootMeanSquare)
-    return redirect('http://127.0.0.1:5000/DSP')
+    return redirect('https://market-music.herokuapp.com/DSP')
 
 
 if __name__ == "__main__":
