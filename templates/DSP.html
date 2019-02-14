@@ -74,7 +74,7 @@
                 <!-- Main content -->
                 <div class="col-md-12">
                     <article>
-                        <h2 class="article-title">Discrete Signal Processing</h2>
+                        <h2 class="article-title">Direct Signal Processing</h2>
                         <h3 class="article-meta">Viewing the problem in the context of discrete signals.</h3>
                         <br>
                         <br>
@@ -83,12 +83,12 @@
                         
                         <div class="col-md-12">
                             <article>
-<br>
+
                                 <center>Stock (Yahoo! Finance Ticker): <input type="text" id="myText" value="Stock"></center>
         
-                                <br>
                                 
-                                <center><button onclick="myFunction()" class="btn btn-dark" >Try it</button></center>
+                                
+                                <center><button onclick="myFunction()">Try it</button></center>
                                 
                                 <p id="demo"></p>
                                 
@@ -154,7 +154,7 @@
                            compares the Root Mean Square Error with the number of standard deviations of filtration).</p>
 
                         <center><img src="{{url_for('static', filename='Figures/DSP/IdealSigmaFilter5.png')}}"></center>
-                        <p>Our ideal filtration is at roughly 0.84 standard deviations.</p>
+                        <p>Our ideal filtration is slightly above 0.75 standard deviations.</p>
 
                         <p>A cumulative sum is than applied to the transformed data to ultimately obtain the following regression via DSP plotted against 
                            market reported stock values.</p>
